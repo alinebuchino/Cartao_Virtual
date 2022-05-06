@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="pt_BR">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Aline Buchino - Cartão Virtual</title>
 
     <link rel="stylesheet" href="style.css" />
@@ -21,28 +22,24 @@
           <span>
             <img src="images/build.svg" alt="Selo" />
           </span>
-          <img src="images/fotoPessoal.jpeg" alt="Foto pessoal" />
+          <img id="userImage" alt="Foto pessoal" />
         </div>
 
-        <h1>Aline Buchino</h1>
-        <a href="https://github.com/alinebuchino" target="_blank">
+        <h1 id="userName"></h1>
+        <a id="userLink" target="_blank">
           <img src="images/github.svg" alt="ícone github" />
-          alinebuchino</a
-        >
+          <span id="userLogin"></span
+        ></a>
 
-        <p>
+        <p id="userBio">
           👋 Hi, I’m Aline Buchino <br />
           👩‍🎓 Engenheira de Software pela PUC-Minas <br />
           🎓 Ex Intercambista em Engenharia Informática pela Universidade de
-          Évora-Portugal 👩‍💻 Desenvolvedora de Software
+          Évora-Portugal <br />
+          👩‍💻 Desenvolvedora de Software
         </p>
 
         <ul>
-          <li>
-            <a href="https://youtube.com/maykbrito" target="_blank">
-              <img src="images/youtube.svg" alt="ícone youtube" />
-            </a>
-          </li>
           <li>
             <a href="https://facebook.com/aline.buchino" target="_blank">
               <img src="images/facebook.svg" alt="ícone facebook" />
@@ -53,13 +50,9 @@
               <img src="images/instagram.svg" alt="ícone instagram" />
             </a>
           </li>
-          <li>
-            <a href="https://twitter.com/maykbrito" target="_blank">
-              <img src="images/twitter.svg" alt="ícone twitter" />
-            </a>
-          </li>
         </ul>
       </div>
     </main>
+    <script src="main.js"></script>
   </body>
 </html>
